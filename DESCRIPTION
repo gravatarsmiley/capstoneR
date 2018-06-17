@@ -1,0 +1,26 @@
+Package: capstoneR
+Type: Package
+Title: Exploring the NOAA Significant Earthquake Database
+Version: 0.1.0
+Author: Susmit Sarker
+Maintainer: Susmit Sarker <abc@yahoo.com>
+Description: This package cleans and visualizes the NOAA Significant Earthquake Database.  
+    The visualizations in this package include timeline and interactive map functions.
+Depends:  R (>= 3.1.0)
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+Imports:    
+    ggplot2,
+    grid,
+    dplyr,
+    leaflet,
+    readr,
+    lubridate,
+    magrittr,
+    stringr
+VignetteBuilder: knitr
