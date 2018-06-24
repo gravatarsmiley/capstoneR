@@ -2,7 +2,8 @@
 noaa
 ====
 
-[![Build Status]
+[![Build Status]]
+https://travis-ci.org/gravatarsmiley/capstoneR.svg?branch=master
 
 This package was created as a capstone project for the Coursera course "Mastering Software Development in R". The package contains functions to clean and visualize earthquake data from the "U.S. National Oceanographic and Atmospheric Administration" "Significant Earthquakes" data set. The visualizations include plotting the earthquakes along a timeline as well as on an interactive map.
 
@@ -68,5 +69,3 @@ dplyr::filter(COUNTRY == "MEXICO" & lubridate::year(DATE) >= 2000) %>%
 dplyr::mutate(popup_text = eq_create_label(.)) %>%
 eq_map(annot_col = "popup_text")
 ```
-
-The image below shows the result of running the code above. This is just a still image, but when working with the htmlwidget, the map will be interactive.
